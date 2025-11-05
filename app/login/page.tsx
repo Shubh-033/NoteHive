@@ -18,10 +18,9 @@ export default function LoginPage() {
     e.preventDefault()
     setIsLoading(true)
 
-    // Simulate login
     setTimeout(() => {
       setIsLoading(false)
-      router.push("/")
+      router.push("/dashboard")
     }, 1000)
   }
 

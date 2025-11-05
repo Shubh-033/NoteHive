@@ -24,10 +24,9 @@ export default function SignupPage() {
 
     setIsLoading(true)
 
-    // Simulate signup
     setTimeout(() => {
       setIsLoading(false)
-      router.push("/")
+      router.push("/dashboard")
     }, 1000)
   }
 
